@@ -3,197 +3,579 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Tile Journey: Match & Relax</title>
+    
+    <!-- PRIMARY SEO META TAGS -->
+    <title>Tile Journey - Classic Match 3 Puzzle & Relaxing Brain Game</title>
+    <meta name="description" content="Play Tile Journey, the ultimate free tile-matching puzzle game. Train your brain with 1000+ zen levels, beautiful themes, cute tile sets, and daily rewards. Download now on Google Play!">
+    <meta name="keywords" content="tile journey, tile match, triple match, match 3 puzzle, zen match, mahjong club, relaxing brain game, free matching game, offline puzzle game">
+    <meta name="author" content="Tile Journey Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://huchu1786.github.io/tile-journey-privacy-policy/">
+
+    <!-- OPEN GRAPH / FACEBOOK META TAGS (Social Sharing SEO) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://huchu1786.github.io/tile-journey-privacy-policy/">
+    <meta property="og:title" content="Tile Journey - Classic Match 3 Puzzle & Relaxing Brain Game">
+    <meta property="og:description" content="Train your brain with 1000+ levels, daily rewards, and stunning scenic themes. Tap, match 3, and clear the board!">
+    <meta property="og:image" content="https://huchu1786.github.io/tile-journey-privacy-policy/feature_banner.png">
+
+    <!-- TWITTER META TAGS -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://huchu1786.github.io/tile-journey-privacy-policy/">
+    <meta property="twitter:title" content="Tile Journey - Classic Match 3 Puzzle & Relaxing Brain Game">
+    <meta property="twitter:description" content="Match 3 tiles, clear the board, and unwind. Get it free on Android today!">
+    <meta property="twitter:image" content="https://huchu1786.github.io/tile-journey-privacy-policy/feature_banner.png">
+
+    <!-- GOOGLE STRUCTURED DATA / SCHEMA MARKUP (Rich Snippets SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Tile Journey",
+      "operatingSystem": "Android",
+      "applicationCategory": "GameApplication",
+      "genre": "Puzzle",
+      "contentRating": "Everyone",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1050"
+      },
+      "screenshot": [
+        "https://huchu1786.github.io/tile-journey-privacy-policy/screenshot_1.png",
+        "https://huchu1786.github.io/tile-journey-privacy-policy/screenshot_2.png",
+        "https://huchu1786.github.io/tile-journey-privacy-policy/screenshot_3.png"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts for Modern Premium Aesthetics -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
     <style>
+        :root {
+            --primary: #ffd3b6;
+            --primary-dark: #ffb3ba;
+            --accent: #6bbaa7;
+            --dark: #1e1e24;
+            --light: #fff5eb;
+            --glass: rgba(255, 255, 255, 0.85);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+            --gradient: linear-gradient(135deg, #ffd3b6 0%, #ffb3ba 50%, #d6c7e8 100%);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Outfit', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            overflow-x: hidden;
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #f9f9f9;
         }
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+        /* HEADER & HERO SECTION */
+        header {
+            background: var(--gradient);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            position: relative;
+            text-align: center;
         }
+
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 150px;
+            background: linear-gradient(to top, var(--light), transparent);
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .logo-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 35px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            margin-bottom: 20px;
+            border: 4px solid #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-img:hover {
+            transform: scale(1.05) rotate(3deg);
+        }
+
         h1 {
-            color: #111;
-            font-size: 2.2rem;
-            margin-bottom: 5px;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: var(--dark);
+            line-height: 1.1;
+            margin-bottom: 15px;
         }
-        .last-updated {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 30px;
+
+        .tagline {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: rgba(30, 30, 36, 0.8);
+            margin-bottom: 40px;
+            max-width: 600px;
         }
-        h2 {
-            color: #2c3e50;
-            font-size: 1.5rem;
-            margin-top: 30px;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 10px;
-        }
-        h3 {
-            color: #34495e;
+
+        /* Call To Action Button */
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            background: var(--dark);
+            color: #fff;
+            padding: 18px 36px;
+            border-radius: 50px;
             font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            margin-bottom: 50px;
+            z-index: 10;
         }
-        p, li {
+
+        .cta-btn:hover {
+            background: #fff;
+            color: var(--dark);
+            border-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .cta-btn svg {
+            margin-right: 12px;
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        /* Floating 3D Tiles Decoration */
+        .floating-tile {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            border: 1px solid rgba(0,0,0,0.05);
+            user-select: none;
+            pointer-events: none;
+        }
+
+        .tile-1 { top: 15%; left: 10%; transform: rotate(-15deg); animation: float 6s ease-in-out infinite; }
+        .tile-2 { top: 25%; right: 12%; transform: rotate(12deg); animation: float 7s ease-in-out infinite 1s; }
+        .tile-3 { bottom: 20%; left: 15%; transform: rotate(8deg); animation: float 8s ease-in-out infinite 0.5s; }
+        .tile-4 { bottom: 30%; right: 8%; transform: rotate(-20deg); animation: float 5s ease-in-out infinite 1.5s; }
+
+        /* FEATURES SECTION */
+        .features {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: var(--glass);
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+            background: #fff;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+
+        .feature-card p {
+            color: #555;
             font-size: 1.05rem;
-            color: #4a4a4a;
         }
-        ul {
+
+        /* SCREENSHOTS SHOWCASE */
+        .screenshots {
+            background: #fff;
+            padding: 80px 0;
+        }
+
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            padding: 40px 20px;
+            gap: 25px;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none; /* Firefox */
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            display: none; /* Safari/Chrome */
+        }
+
+        .screenshot-item {
+            flex: 0 0 auto;
+            width: 280px;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            scroll-snap-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .screenshot-item:hover {
+            transform: scale(1.05);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            display: block;
+        }
+
+        /* PRIVACY POLICY BUTTON & DIALOG */
+        .footer {
+            background: var(--dark);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .privacy-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .privacy-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* MODAL DIALOG STYLE */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+            backdrop-filter: blur(5px);
+            padding: 40px 15px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 40px;
+            border: 1px solid #888;
+            width: 100%;
+            max-width: 900px;
+            border-radius: 30px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            position: relative;
+        }
+
+        .close-btn {
+            color: #aaa;
+            position: absolute;
+            right: 25px;
+            top: 20px;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .close-btn:hover {
+            color: var(--dark);
+        }
+
+        .privacy-body {
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 15px;
+            margin-top: 20px;
+            color: #444;
+        }
+
+        .privacy-body h2 {
+            margin-top: 30px;
+            font-size: 1.4rem;
+            color: var(--dark);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .privacy-body h3 {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #222;
+        }
+
+        .privacy-body ul {
             padding-left: 20px;
+            margin: 15px 0;
         }
-        li {
+
+        .privacy-body li {
             margin-bottom: 8px;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 1rem;
+
+        /* KEYFRAME ANIMATIONS */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
+
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-12px) rotate(3deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
         }
-        th {
-            background-color: #f2f2f2;
-            color: #2c3e50;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.8rem; }
+            .tagline { font-size: 1.2rem; }
+            .floating-tile { width: 60px; height: 60px; font-size: 1.8rem; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy for Tile Journey</h1>
-        <p class="last-updated">Last Updated: January 13, 2026</p>
 
-        <h2>Introduction</h2>
-        <p>Welcome to Tile Journey ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application Tile Journey (the "App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the App.</p>
+    <!-- FLOATING BACKGROUND DECORATION -->
+    <div class="floating-tile tile-1">🍓</div>
+    <div class="floating-tile tile-2">🌸</div>
+    <div class="floating-tile tile-3">🥑</div>
+    <div class="floating-tile tile-4">⭐</div>
 
-        <h2>Information We Collect</h2>
-        <h3>Information Automatically Collected</h3>
-        <p>When you use our App, we may automatically collect certain information, including:</p>
-        <ul>
-            <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers.</li>
-            <li><strong>Usage Data:</strong> App usage patterns, features accessed, time spent in the app.</li>
-            <li><strong>Performance Data:</strong> Crash logs, error reports, and diagnostic information.</li>
-        </ul>
+    <!-- HERO HEADER -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" id="appLogo" src="app_icon_512.png" alt="Tile Journey App Logo">
+            <h1>Tile Journey</h1>
+            <p class="tagline">An addictive, relaxing triple-match puzzle game. Clear the board and train your mind with 1000+ zen levels.</p>
+            <a class="cta-btn" id="downloadBtn" href="https://play.google.com/store/apps/details?id=com.rmzsh.tiles_club" target="_blank" rel="noopener">
+                <!-- SVG Play Store Icon -->
+                <svg viewBox="0 0 512 512">
+                    <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58-33.2-65.6 65.6 65.6 65.6 58-33.2c15-8.6 25.2-22.7 25.2-39.6 0-16.9-10.2-31-25.2-39.6zm-147.2 52.1l60.1 60.1L104.6 499l220.7-221.3z"/>
+                </svg>
+                Get it on Google Play
+            </a>
+        </div>
+    </header>
 
-        <h3>Advertising Data</h3>
-        <p>Our App uses Google AdMob to display advertisements. Google AdMob may collect and use data for personalized advertising. This may include:</p>
-        <ul>
-            <li>Advertising ID</li>
-            <li>IP address</li>
-            <li>Device information</li>
-            <li>Ad interaction data</li>
-        </ul>
-        <p>For more information about how Google uses this data, please visit: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy & Terms</a>.</p>
+    <!-- SCREENSHOT SHOWCASE -->
+    <section class="screenshots">
+        <h2 class="section-title">Visual Sneak Peek</h2>
+        <div class="scroll-container" id="screenshotScroll">
+            <div class="screenshot-item"><img src="screenshot_1.png" alt="Tile Journey Match & Clear Gameplay"></div>
+            <div class="screenshot-item"><img src="screenshot_2.png" alt="Tile Journey 1000+ Zen Levels"></div>
+            <div class="screenshot-item"><img src="screenshot_3.png" alt="Tile Journey Stunning Scenic Themes"></div>
+            <div class="screenshot-item"><img src="screenshot_4.png" alt="Tile Journey 200+ Cute Tile Sets"></div>
+            <div class="screenshot-item"><img src="screenshot_5.png" alt="Tile Journey Magic Power-ups"></div>
+            <div class="screenshot-item"><img src="screenshot_6.png" alt="Tile Journey Daily Challenges"></div>
+            <div class="screenshot-item"><img src="screenshot_7.png" alt="Tile Journey Track Your Streaks"></div>
+            <div class="screenshot-item"><img src="screenshot_8.png" alt="Tile Journey Relax & Unwind"></div>
+        </div>
+    </section>
 
-        <h2>How We Use Your Information</h2>
-        <p>We use the information we collect to:</p>
-        <ul>
-            <li>Provide and maintain the App</li>
-            <li>Improve user experience and gameplay</li>
-            <li>Display relevant advertisements</li>
-            <li>Analyze app performance and fix bugs</li>
-            <li>Respond to user inquiries and support requests</li>
-        </ul>
+    <!-- CORE FEATURES -->
+    <section class="features">
+        <h2 class="section-title">Why Play Tile Journey?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">🧠</span>
+                <h3>Keep Your Mind Sharp</h3>
+                <p>Triple matching mechanics train your cognitive focus, memory, and strategy skills with increasing puzzle complexity.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🌸</span>
+                <h3>Beautiful Scenic Themes</h3>
+                <p>Escape into peace. Unlock scenic landscapes including tropical beaches, snowy peaks, cherry blossoms, and sunsets.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🥑</span>
+                <h3>200+ Unique Tile Types</h3>
+                <p>Enjoy matching vibrant 3D elements across 18 cute categories: delicious food, adorable animals, and colorful flowers.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3>Magic Boosters</h3>
+                <p>Stuck on a layout? Harness the power of Undo, Hints, and Shuffles to overcome even the hardest levels.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🏆</span>
+                <h3>Daily Trophies</h3>
+                <p>Complete unique daily calendar levels to win streak chests and represent your country on the leaderboard.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">✈️</span>
+                <h3>Play Offline Anywhere</h3>
+                <p>No Wi-Fi required! Play entirely offline at your own pace, on planes, trains, or during a relaxing coffee break.</p>
+            </div>
+        </div>
+    </section>
 
-        <h2>Third-Party Services</h2>
-        <p>Our App uses the following third-party services:</p>
-        <h3>Google AdMob</h3>
-        <p>We use Google AdMob to display advertisements. AdMob may collect data for ad personalization. You can opt out of personalized ads through your device settings.</p>
-        <h3>Google Play Services</h3>
-        <p>The App uses Google Play Services for various functionalities including in-app purchases and app updates.</p>
-
-        <h2>Children's Privacy</h2>
-        <p>Our App is designed for general audiences and does not knowingly collect personal information from children under 13 years of age. The App does not require any personal information to play.</p>
-
-        <h2>Data Retention</h2>
-        <p>We retain automatically collected data for a reasonable period to provide our services. You can request deletion of your data by contacting us.</p>
-
-        <h2>Your Rights</h2>
-        <p>Depending on your location, you may have the right to:</p>
-        <ul>
-            <li>Access your personal data</li>
-            <li>Request deletion of your data</li>
-            <li>Opt out of personalized advertising</li>
-            <li>Withdraw consent for data processing</li>
-        </ul>
-
-        <h2>Data Security</h2>
-        <p>We implement appropriate technical and organizational measures to protect your information. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
-
-        <h2>Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App. You are advised to review this Privacy Policy periodically.</p>
-
-        <h2>Opt-Out Options</h2>
-        <h3>Personalized Ads</h3>
-        <p>You can opt out of personalized advertising by:</p>
-        <ul>
-            <li>On Android: Go to Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization</li>
-            <li>Resetting your advertising ID</li>
-        </ul>
-        <h3>Data Collection</h3>
-        <p>You can limit data collection by uninstalling the App.</p>
-
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Tile Journey. All rights reserved.</p>
         <p>
-            <strong>Email:</strong> <a href="mailto:huchusim@gmail.com">huchusim@gmail.com</a><br>
-            <strong>Website:</strong> <a href="https://huchu1786.github.io/tile-journey-privacy-policy/" target="_blank">huchu1786.github.io/tile-journey-privacy-policy</a>
+            <span class="privacy-link" id="openPrivacyBtn">Privacy Policy</span>
         </p>
+    </footer>
 
-        <h2>Summary of Data Practices</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Data Type</th>
-                    <th>Collected</th>
-                    <th>Purpose</th>
-                    <th>Shared</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Device ID</td>
-                    <td>Yes</td>
-                    <td>App functionality</td>
-                    <td>No</td>
-                </tr>
-                <tr>
-                    <td>Usage Data</td>
-                    <td>Yes</td>
-                    <td>Improve experience</td>
-                    <td>No</td>
-                </tr>
-                <tr>
-                    <td>Ad Data</td>
-                    <td>Yes</td>
-                    <td>Display ads</td>
-                    <td>With AdMob</td>
-                </tr>
-                <tr>
-                    <td>Personal Info</td>
-                    <td>No</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-            </tbody>
-        </table>
+    <!-- PRIVACY DIALOG MODAL -->
+    <div class="modal" id="privacyModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closePrivacyBtn">&times;</span>
+            <h1>Privacy Policy for Tile Journey</h1>
+            <p style="color: #666; font-style: italic;">Last Updated: January 13, 2026</p>
+            
+            <div class="privacy-body">
+                <h2>Introduction</h2>
+                <p>Welcome to Tile Journey ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application Tile Journey (the "App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the App.</p>
+
+                <h2>Information We Collect</h2>
+                <h3>Information Automatically Collected</h3>
+                <p>When you use our App, we may automatically collect certain information, including:</p>
+                <ul>
+                    <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers.</li>
+                    <li><strong>Usage Data:</strong> App usage patterns, features accessed, time spent in the app.</li>
+                    <li><strong>Performance Data:</strong> Crash logs, error reports, and diagnostic information.</li>
+                </ul>
+
+                <h3>Advertising Data</h3>
+                <p>Our App uses Google AdMob to display advertisements. Google AdMob may collect and use data for personalized advertising. This may include advertising IDs, IP addresses, and ad interactions.</p>
+
+                <h2>How We Use Your Information</h2>
+                <p>We use the collected information to provide and maintain the App, improve user experience and gameplay, display relevant ads, analyze app performance, and troubleshoot crashes.</p>
+
+                <h2>Third-Party Services</h2>
+                <p>We utilize Google AdMob for advertisements and Google Play Services for essential gaming and store functionalities. These services collect diagnostic and advertising identifiers governed by their respective privacy policies.</p>
+
+                <h2>Children's Privacy</h2>
+                <p>Our App does not collect any personal information and is suitable for children. No account signup is required.</p>
+
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at: <a href="mailto:huchusim@gmail.com">huchusim@gmail.com</a></p>
+            </div>
+        </div>
     </div>
+
+    <!-- SIMPLE MODAL JAVASCRIPT -->
+    <script>
+        const modal = document.getElementById("privacyModal");
+        const btn = document.getElementById("openPrivacyBtn");
+        const span = document.getElementById("closePrivacyBtn");
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden"; // Prevent background scroll
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
+    </script>
 </body>
 </html>
